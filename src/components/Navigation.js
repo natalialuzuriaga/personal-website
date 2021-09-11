@@ -21,7 +21,7 @@ function Navigation(){
                     <NavLink to="/experience" activeClassName="active-class">Experience</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class">Portfolios</NavLink>
+                    <NavLink to="/projects" activeClassName="active-class">Projects</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/blog" activeClassName="active-class">Blog</NavLink>

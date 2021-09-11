@@ -3,15 +3,20 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 :root{
     --primary-color: #007bff;
+    --primary-color-light: #057fff;
     --secondary-color: #007bff;
     --background-dark-color: #10121A;
     --border-color: #2e344e;
     --background-light-color: #f1f1f1;
+    --background-light-color-2: rgba(3,127,255,.3);
     --white-color: #fff;
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
     --sidebar-dark-color: #191D2B;
+    --sidebar-bg-color: #383838;
+    --scrollbar-thump-color: #6b6b6b;
+    --scrollbar-track-color: #383838;
 }
     *{
         margin: 0;
