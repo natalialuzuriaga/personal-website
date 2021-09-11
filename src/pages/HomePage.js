@@ -8,11 +8,16 @@ function HomePage(){
     return(
         <HomePageStyle>
             <div className="typography">
-                <h1>Hi I'm <span>Natalia Luzuriaga</span></h1>
+                <h1>Hey! </h1>
+                <h1>I'm <span>Natalia Luzuriaga</span></h1>
                 <p>
-                    3rd Year Computer Science Studet at UCLA.
-                    Orginally from New Jersey.
-                    French Fry Enthusiaust!
+                    3rd Year Computer Science Student at UCLA.
+                </p>
+                <p>
+                    Originally from New Jersey.
+                </p>
+                <p>
+                    French Fry Enthusiast
                 </p>
                 <div className="icons">
                     <a href="https://instagram.com/nataleeyaa" className="icon i-instagram">
@@ -55,10 +60,10 @@ const HomePageStyle = styled.header`
             border-radius: 50%;
             transition: all .4s ease-in-out;
             cursor: pointer;
-            &:hover{
+            /* &:hover{
                 border: 2px solid var(--primary-color);
                 color: var(--primary-color);
-            }
+            } */
             &:not(:last-child){
                 margin-right: 1rem;
             }
@@ -68,8 +73,8 @@ const HomePageStyle = styled.header`
         }
         .i-instagram{
                 &:hover{
-                    border: 2x solid purple;
-                    color: purple;
+                    border: 2x solid #5f4687;;
+                    color: #5f4687;
                 }
             }
             .i-github{
@@ -80,8 +85,8 @@ const HomePageStyle = styled.header`
             }
             .i-linkedin{
                 &:hover{
-                    border: 2x solid blue;
-                    color: blue;
+                    border: 2x solid #5f4687;;
+                    color: #5f4687;
                 }
             }
     }
