@@ -17,7 +17,7 @@ const TitleStyle = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         position: relative;
-        //padding-bottom: .7rem;
+        padding-bottom: .7rem;
         &::before{
             content: "";
             position: absolute;
@@ -28,7 +28,7 @@ const TitleStyle = styled.div`
             border-radius: 15px;
             left: 0;
         }
-        &::after
+        &::after{
             content: "";
             position: absolute;
             bottom: 0;
