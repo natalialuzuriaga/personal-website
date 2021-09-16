@@ -13,6 +13,7 @@ function SmallTitle({icon, title}) {
 const SmallTitleStyle = styled.div`
     display: flex;
     align-items: center;
+    margin-top: 3rem;
     p{
         padding-right: 1rem;
         svg {

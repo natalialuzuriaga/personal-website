@@ -50,7 +50,7 @@ const MainContentStyle = styled.main`
   margin-left: 16.3rem;
   min-height: 100vh;
 
-  .lines{
+  /* .lines{
     position: absolute;
     min-height: 100vh;
     width: 100%;
@@ -61,6 +61,6 @@ const MainContentStyle = styled.main`
       min-height: 100vh;
       background-color: var(--border-color);
     }
-  };
+  }; */
 `;
 export default App;

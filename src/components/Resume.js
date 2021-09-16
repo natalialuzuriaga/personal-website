@@ -10,8 +10,7 @@ function Resume() {
 
     return (
         <ResumeStyle>
-            <InnerLayout>
-                    <div className="small-title">
+                    <div className="small-title-resume">
                         <SmallTitle icon={briefcase} title={"Work Experience"}/>
                     </div>
                     <div className="resume-content">
@@ -34,19 +33,13 @@ function Resume() {
                             text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
                         />
                     </div>
-                    <div className="small-title">
-                    </div>
-            </InnerLayout>
         </ResumeStyle>
     )
 }
 
 const ResumeStyle = styled.section`
-    .small-title {
-        padding-bottom: 3rem;
-    }
-    .u-small-title-margin {
-        margin-top: 4rem;
+    .small-title-resume{
+        padding-bottom: 2rem;
     }
     .resume-content {
         border-left: 2px solid var(--border-color);
