@@ -10,7 +10,7 @@ function ImageSection() {
                 <img src={avatar} alt=""/>
             </div>
             <div className='right-content'>
-                <h4><span>Natalia Luzuriaga</span></h4>
+                <h3><span>Natalia Luzuriaga</span></h3>
                 <p className="paragraph">
                     I'm a third year student studying Computer Science and Public Affairs at UCLA. As a previous user of hearing aids, I owe it all to assistive technologies for enhancing my quality of life. I aspire to become a software engineer to create technologies that help others just like with what hearing aids have done to myself and the hearing-impaired community.
                 </p>
@@ -24,8 +24,8 @@ function ImageSection() {
                     <div className='info'>
                         <p>University of California, Los Angeles (UCLA)</p>
                         <p>June 2023</p>
-                        <p>Filipino-American</p>
-                        <p>Los Angeles, California</p>
+                        <p>Filipino-American from NJ</p>
+                        <p>Los Angeles, CA</p>
                     </div>
             </div>
             <div>

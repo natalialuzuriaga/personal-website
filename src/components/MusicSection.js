@@ -5,21 +5,17 @@ import Title from "../components/Title";
 
 function MusicSection() {
   return (
-    <InnerLayout>
-      <MusicSectionStyle>
-        <Title title={"Music"} span={"Music"} />
+    <MusicSectionStyle>
+      <Title title={"Music"} span={"Music"} />
+      <InnerLayout>
         <div className="music">
           <h3>Coming Soon!</h3>
         </div>
-      </MusicSectionStyle>
-    </InnerLayout>
+      </InnerLayout>
+    </MusicSectionStyle>
   );
 }
 
-const MusicSectionStyle = styled.div`
-  .music {
-    margin-top: 3.5rem;
-  }
-`;
+const MusicSectionStyle = styled.div``;
 
 export default MusicSection;
