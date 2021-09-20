@@ -41,7 +41,7 @@ function Involvement() {
           />
           <ResumeItem
             year={"Oct 2020 - Present 2021"}
-            title={"Society of Women Engineers (UCLA) Advocacy Committee"}
+            title={"Society of Women Engineers - UCLA"}
             subTitle={"Diversity Outreach Director - Advocacy Committee"}
             text={
               "• Led Diversity Showcase where students of different backgrounds share their experiences of pursuing STEM \n• Lobbied for AB 1225: The Dignity for Incarcerated Women Act"
