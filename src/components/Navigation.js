@@ -24,6 +24,9 @@ function Navigation(){
                     <NavLink to="/projects" activeClassName="active-class">Projects</NavLink>
                 </li>
                 <li className="nav-item">
+                    <NavLink to="/workshops" activeClassName="active-class">Workshops</NavLink>
+                </li>
+                <li className="nav-item">
                     <NavLink to="/blog" activeClassName="active-class">Blog</NavLink>
                 </li>
             </ul>

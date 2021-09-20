@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ResumePage from "./pages/ResumePage";
 import ProjectsPage from "./pages/ProjectsPage";
+import WorkshopsPage from "./pages/WorkshopsPage";
 import BlogPage from "./pages/BlogsPage";
 
 import { Route, Switch as Switching } from "react-router";
@@ -68,6 +69,9 @@ function App() {
           </Route>
           <Route path="/projects" exact>
             <ProjectsPage />
+          </Route>
+          <Route path="/workshops" exact>
+            <WorkshopsPage />
           </Route>
           <Route path="/blog" exact>
             <BlogPage />
