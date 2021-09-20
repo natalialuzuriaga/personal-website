@@ -15,22 +15,22 @@ function Resume() {
                     </div>
                     <div className="resume-content">
                         <ResumeItem
-                            year={'June 2021 - Aug 2021'}
+                            year={'06/2021 - 08/2021'}
                             title={'Software Engineering Intern'}
                             subTitle={'BlackLine - UI Platform Engineering Team'}
-                            text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
+                            text={'• Developed and restyled 5+ components in BlackLine’s next generation UI component library hosted on Storybook using React, Less/CSS, and Ant Design Library • Wrote unit tests to validate functionality and identify bugs using Jest, Enzyme, and React Testing Library • Worked closely with UI/UX, Product, and QA to meet project requirements and desired functionality'}
                         />
                         <ResumeItem
-                            year={'March 2021 - Present'}
+                            year={'03/2021 - Present'}
                             title={'Junior Data Analyst'}
                             subTitle={'UCLA Transportation Department - Data Lab'}
-                            text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
+                            text={'• Creates 7+ Tableau dashboards analyzing parking occupancy, Salesforce CRM data, and permit sales'}
                         />
                         <ResumeItem
-                            year={'Sept 2018 - Sept 2019'}
+                            year={'09/2018 - 09/2019'}
                             title={'System Analyst Intern'}
                             subTitle={'Prudential Financial - Managed Service Department'}
-                            text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '}
+                            text={'• Utilized Tableau to create visualizations and consolidate reports into 50+ dashboards used by senior executives • Examined and extracted service-level agreement data, specific operations information, and application lifetime and development cycles'}
                         />
                     </div>
         </ResumeStyle>
@@ -38,7 +38,7 @@ function Resume() {
 }
 
 const ResumeStyle = styled.section`
-    .small-title-resume{
+    .small-title-resume {
         padding-bottom: 2rem;
     }
     .resume-content {

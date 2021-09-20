@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { InnerLayout } from "../styles/Layouts";
 import SmallTitle from "./SmallTitle";
 
 import SchoolIcon from "@material-ui/icons/School";
@@ -20,7 +19,7 @@ function Education() {
             title={"University of California, Los Angeles (UCLA)"}
             subTitle={"B.S. Computer Science - School of Engineering"}
             text={
-              "Coursework: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "Relevant Coursework: Object Oriented Programming, Data Structures & Algorithms, Computer Organization, Programming Languages, Operating Systems, Data Science, Using Data to Learn about Society "
             }
           />
         </div>

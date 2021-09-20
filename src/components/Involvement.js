@@ -20,7 +20,7 @@ function Involvement() {
               "Mobile Developer, Executive Board Member, Director of Workshops"
             }
             text={
-              "Education: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "• Works on pro-bono software projects that empowers nonprofit organizations to better serve their communities • Spearheads Nova’s first workshops (Data Vis, Web Scraping & Data Analysis in Python, Mental Health Chatbots)"
             }
           />
           <ResumeItem
@@ -28,7 +28,7 @@ function Involvement() {
             title={"Congressional App Challenge Alumni Advisory Board"}
             subTitle={"Director of Workshops"}
             text={
-              "Education: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "• Pioneers the organization’s first workshop series offered to middle and high school students across the nation • Crafts workshops in App Ideation and Web Development to guide participants towards completing their apps"
             }
           />
           <ResumeItem
@@ -36,15 +36,15 @@ function Involvement() {
             title={"exploretech.la"}
             subTitle={"Content Team Member"}
             text={
-              "Education: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "• Organized a tech education event with 50+ high school attendees from underserved communities in LA County • Led creation of 3 new workshops (Tech & Society, Data Science, Internet) and 1 panel throughout two events"
             }
           />
           <ResumeItem
-            year={"Oct 2020 - Present"}
+            year={"Oct 2020 - Present 2021"}
             title={"Society of Women Engineers (UCLA) Advocacy Committee"}
-            subTitle={"Diversity Outreach Director"}
+            subTitle={"Diversity Outreach Director - Advocacy Committee"}
             text={
-              "SWE: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. "
+              "• Led Diversity Showcase where students of different backgrounds share their experiences of pursuing STEM \n• Lobbied for AB 1225: The Dignity for Incarcerated Women Act"
             }
           />
         </div>
