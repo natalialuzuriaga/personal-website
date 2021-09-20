@@ -15,7 +15,7 @@ function Education() {
         </div>
         <div className="education-content">
           <ResumeItem
-            year={"Sept 2019 - June 2023"}
+            year={"09/2019 - 06/2023"}
             title={"University of California, Los Angeles (UCLA)"}
             subTitle={"B.S. Computer Science - School of Engineering"}
             text={

@@ -14,7 +14,7 @@ function Involvement() {
         </div>
         <div className="involvement-content">
           <ResumeItem
-            year={"Oct 2019 - Present"}
+            year={"10/2019 - Present"}
             title={"Nova, Tech for Good"}
             subTitle={
               "Mobile Developer, Executive Board Member, Director of Workshops"
@@ -24,7 +24,7 @@ function Involvement() {
             }
           />
           <ResumeItem
-            year={"June 2021 - Present"}
+            year={"06/2021 - Present"}
             title={"Congressional App Challenge Alumni Advisory Board"}
             subTitle={"Director of Workshops"}
             text={
@@ -32,7 +32,7 @@ function Involvement() {
             }
           />
           <ResumeItem
-            year={"Oct 2019 - Present"}
+            year={"10/2019 - 04/2021"}
             title={"exploretech.la"}
             subTitle={"Content Team Member"}
             text={
@@ -40,7 +40,7 @@ function Involvement() {
             }
           />
           <ResumeItem
-            year={"Oct 2020 - Present 2021"}
+            year={"10/2020- Present"}
             title={"Society of Women Engineers - UCLA"}
             subTitle={"Diversity Outreach Director - Advocacy Committee"}
             text={
