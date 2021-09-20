@@ -1,73 +1,52 @@
-// import css1 from '../img/portImages/cv_css.png';
-// import css2 from '../img/portImages/ms.png';
-// import react1 from '../img/portImages/react_styled.png';
-// import img2 from '../img/portImages/maya-4.jpg';
-// import img3 from '../img/portImages/maya-3.jpg';
+import hussle from "../img/hussle.png";
+import iiDecide from "../img/iiDecide.png";
+import narra from "../img/narra.png";
+import holedUp from "../img/holedup.png";
+import fryFight from "../img/FryFight.png";
 
 const projects = [
     {
         id: 1,
-        category: 'CSS',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
+        category: 'React Native',
+        image: hussle,
+        link1: 'https://github.com/hussle-app',
+        title: 'Hussle',
+        text: 'A freelance marketplace platform where college students can launch and offer side hustles to their community.'
     },
     {
         id: 2,
-        category: 'Python',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        category: 'Swift',
+        image: iiDecide,
+        link1: 'https://github.com/novaforgood',
+        title: 'iiDecide',
+        text: 'An iOS chatting platform where sexual assault survivors of the same offender can connect & chat with each other.'
     },
     {
         id: 3,
         category: 'Javascript',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        image: narra,
+        link1: 'https://github.com/natalialuzuriaga/narra',
+        title: 'Narra',
+        text: 'A web application that matches users based on compatibility of the Myers Briggs Personality Type Indicator (MBTI).'
     },
     {
         id: 4,
-        category: 'Animation',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        category: 'iOS',
+        image: holedUp,
+        link1: 'https://github.com/natalialuzuriaga/fryfight',
+        title: 'Holed Up',
+        text: "An iOS app that allows users to report the severity of nearby potholes and notify & urge the persons in charge to fix."
     },
     {
         id: 5,
-        category: 'Animation',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        category: 'iOS',
+        image: fryFight,
+        link1: 'https://github.com/natalialuzuriaga/fryfight',
+        title: 'FryFight',
+        text: "An iOS game about a French Fry's fight for survival against harmful drops of ketchup & mustard, hungry humans, and an evil fork."
     },
-    {
-        id: 6,
-        category: 'React JS',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
-    },
-    {
-        id: 7,
-        category: 'CSS',
-        image: "https://cdn.pixabay.com/photo/2017/12/08/12/25/berlin-3005717_1280.jpg",
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
+
+    
 ]
 
 export default projects;

@@ -19,7 +19,7 @@ function InterestCard({
           <p>{paragraph}</p>
         </div>
         <div className="icon">
-          Icons made by{" "}
+          Icon made by{" "}
           <a href={authorLink} title={author}>
             {author}
           </a>{" "}
