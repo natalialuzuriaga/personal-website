@@ -28,7 +28,7 @@ function Navigation(){
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 Natalia Luzuriaga</p>
+                <p>© 2021 Natalia Luzuriaga</p>
             </footer>
         </NavigationStyle>
     )
@@ -55,24 +55,30 @@ const NavigationStyle = styled.nav`
         }
     }
 
-    .nav-items{
+    .nav-items {
         width: 100%;
         text-align: center;
         .active-class{
             background-color: var(--primary-color);
         }
-        li{
+        li {
             display: block;
-            a{
+            a {
                 display: block;
-                padding: .2rem 0;
+                color: var(--white-color);
+                padding: .45rem 0;
                 position: relative;
-                z-index: 4;
+                z-index: 10;
+                text-transform: uppercase;
+                transition: all .4s ease-in-out;
+                font-weight: 600;
+                letter-spacing: 1px;
                 &:hover{
                     cursor: pointer;
                 }
-                &::before{
+                &::before {
                     content: "";
+                    color: var(--white-color);
                     position: absolute;
                     bottom: 0;
                     left: 0;
@@ -80,7 +86,7 @@ const NavigationStyle = styled.nav`
                     height: 50%;
                     background-color: var(--primary-color);
                     transition: All 0.4s cubic-bezier(1, -0.2, .25, .95);
-                    z-index: 3;
+                    z-index: -1;
                     opacity: 0.21;
                 }
             }
@@ -93,10 +99,10 @@ const NavigationStyle = styled.nav`
     }
 
     footer{
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid var(--white-color);
         width: 100%;
         p{
-            padding: 2rem 0;
+            padding: 1.3rem 0;
             font-size: 1.1rem;
             display: block;
             text-align: center;

@@ -60,10 +60,6 @@ const HomePageStyle = styled.header`
             border-radius: 50%;
             transition: all .4s ease-in-out;
             cursor: pointer;
-            /* &:hover{
-                border: 2px solid var(--primary-color);
-                color: var(--primary-color);
-            } */
             &:not(:last-child){
                 margin-right: 1rem;
             }
@@ -74,19 +70,19 @@ const HomePageStyle = styled.header`
         .i-instagram{
                 &:hover{
                     border: 2x solid #5f4687;;
-                    color: #5f4687;
+                    color: var(--primary-color);
                 }
             }
             .i-github{
                 &:hover{
                     border: 2x solid #5f4687;
-                    color: #5f4687;
+                    color: var(--primary-color);
                 }
             }
             .i-linkedin{
                 &:hover{
                     border: 2x solid #5f4687;;
-                    color: #5f4687;
+                    color: var(--primary-color);
                 }
             }
     }

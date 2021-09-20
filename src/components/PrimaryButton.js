@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function PrimaryButton({title}) {
     return (
         <PrimaryButtonStyled>
-            <h4>{title}</h4>
+            <h5>{title}</h5>
         </PrimaryButtonStyled>
     )
 
@@ -20,6 +20,7 @@ const PrimaryButtonStyled = styled.a`
     text-transform: uppercase;
     position: relative;
     transition: all .4s ease-in-out;
+    align-items: center;
     &:hover::after {
         content: "";
         position: absolute;

@@ -1,17 +1,58 @@
+import { useState, useEffect } from "react";
 import Sidebar from "./components/Sidebar";
 import styled from "styled-components";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage.js";
-import ResumePage from "./pages/ResumePage.js";
-import ProjectsPage from "./pages/ProjectsPage.js";
-import BlogsPage from "./pages/BlogsPage.js";
-import { Route, Switch } from "react-router";
+import AboutPage from "./pages/AboutPage";
+import ResumePage from "./pages/ResumePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import BlogPage from "./pages/BlogsPage";
+
+import MenuIcon from '@material-ui/icons/Menu';
+import { Route, Switch as Switching } from "react-router";
+import Switch from '@material-ui/core/Switch'
+import { IconButton } from "@material-ui/core";
+import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 
 function App() {
+  const [theme, setTheme] = useState('light-theme');
+  const [checked, setChecked] = useState(false);
+  const [navToggle, setNavToggle] = useState(false);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
+
+  const themeToggler = () => {
+    if(theme === 'light-theme') {
+      setTheme('dark-theme');
+      setChecked(true);
+    } else {
+      setTheme('light-theme');
+      setChecked(false);
+    }
+  }
+
   return (
     <div className= "App">
-      <Sidebar />
+      <Sidebar navToggle={navToggle}/>
+
+      <div className="theme">
+        <div className="light-dark-mode">
+          <div className="left-content">
+            <Brightness4Icon/>
+          </div>
+          <div className="right-content">
+            <Switch
+              value=""
+              checked={checked}
+              inputProps={{'aria-label': ''}}
+              size="medium"
+              onClick={themeToggler}
+            />
+          </div>
+        </div>
+      </div>
 
       <MainContentStyle>
         <div className="lines">
@@ -20,7 +61,7 @@ function App() {
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>
-        <Switch>
+        <Switching>
           <Route path="/" exact>
             <HomePage />
             </Route>
@@ -36,10 +77,10 @@ function App() {
           <Route path="/projects" exact>
             <ProjectsPage />
           </Route>
-          <Route path="/blogs" exact>
-            <BlogsPage />
+          <Route path="/blog" exact>
+            <BlogPage />
           </Route>
-        </Switch>
+        </Switching>
       </MainContentStyle>
       </div>
   );
@@ -49,7 +90,9 @@ const MainContentStyle = styled.main`
   position: relative;
   margin-left: 16.3rem;
   min-height: 100vh;
-
+  @media screen and (max-width:1200px){
+    margin-left: 0;
+  }
   /* .lines{
     position: absolute;
     min-height: 100vh;
