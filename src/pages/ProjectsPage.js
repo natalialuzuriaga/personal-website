@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import styled from 'styled-components';
 import { MainLayout, InnerLayout } from "../styles/Layouts";
 import Title from "../components/Title";
 import Menu from "../components/Menu";
@@ -30,9 +31,22 @@ function ProjectsPage() {
             <InnerLayout>
                 <Button filter={filter} button={button} />
                 <Menu menuItem={menuItem}/>
+                <br/>
+                <ComingSoonStyle>
+                <h4><em>Project Details Page Coming Soon!</em></h4>
+                </ComingSoonStyle>
             </InnerLayout>
         </MainLayout>
     )
 }
+
+const ComingSoonStyle = styled.h4`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 2.4rem auto;
+`;
 
 export default ProjectsPage;

@@ -17,25 +17,13 @@ function Button({filter, button}) {
     )
 }
 
-const ButtonsStyle = styled.button`
-    outline: none;
-    border: none;
-    background-color: var(--background-light-color-2);
-    padding: .4rem 2rem;
-    font-size: inherit;
-    color: var(--white-color);
-    cursor: pointer;
-    transition: all .4s ease-in-out;
-    margin-bottom: .6rem;
-    &:active, &:focus {
-        background-color: var(--primary-color);
-    }
-    &:hover {
-        background-color: var(--primary-color);
-    }
-    &::not(:last-child){
-        margin-right: .6rem;
-    }
+const ButtonsStyle = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 2.4rem auto;
 `;
 
 const ButtonStyle = styled.button`
@@ -48,13 +36,14 @@ const ButtonStyle = styled.button`
     cursor: pointer;
     transition: all .4s ease-in-out;
     margin-bottom: .6rem;
-    &:active, &:focus {
+    &:active ,&:focus{
         background-color: var(--primary-color);
     }
-    &:hover {
+    &:hover{
         background-color: var(--primary-color);
     }
-    &:not(last-child) {
+
+    &:not(:last-child){
         margin-right: .6rem;
     }
 `;

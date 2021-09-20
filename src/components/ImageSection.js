@@ -28,8 +28,9 @@ function ImageSection() {
                         <p>Los Angeles, CA</p>
                     </div>
             </div>
+            
             <div>
-                <PrimaryButton title={"Download Resume"}/>
+                <PrimaryButton title={"Download Resume"} link={'https://tinyurl.com/natalialuzuriagaresume'}/>
             </div>
         </div>
         </ImageSectionStyled>

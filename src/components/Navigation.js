@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import avatar from "../img/avatar.jpg";
+import natLogo from "../img/natlogo.png";
 
 
 function Navigation(){
     return(
         <NavigationStyle>
-            <div className="avatar">
-                <img src={avatar} alt="hi"/>
+            <div className="logo">
+                <img src={natLogo} alt="hi"/>
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
@@ -43,15 +43,13 @@ const NavigationStyle = styled.nav`
     width: 100%;
     border-right: 1px solid var(--border-color);
 
-    .avatar{
+    .logo{
         width: 80%;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 3px solid var(--border-color);
         text-align: center;
         padding: 1rem 0;
         img{
             width: 70%;
-            border-radius: 50%;
-            border: 8px solid var(--border-color);
         }
     }
 
@@ -99,7 +97,7 @@ const NavigationStyle = styled.nav`
     }
 
     footer{
-        border-top: 1px solid var(--white-color);
+        border-top: 1px solid var(--border-color);
         width: 100%;
         p{
             padding: 1.3rem 0;

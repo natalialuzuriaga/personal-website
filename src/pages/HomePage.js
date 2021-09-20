@@ -1,23 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
-import InstagramIcon from '@material-ui/icons/Instagram'
-import GithubIcon from '@material-ui/icons/GitHub'
-import LinkedinIcon from '@material-ui/icons/LinkedIn'
+import Particle from '../components/Particle';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import GithubIcon from '@material-ui/icons/GitHub';
+import LinkedinIcon from '@material-ui/icons/LinkedIn';
 
 function HomePage(){
     return(
         <HomePageStyle>
+            <div className="particle-container">
+                <Particle />
+            </div>
             <div className="typography">
                 <h1>Hey! </h1>
                 <h1>I'm <span>Natalia Luzuriaga</span></h1>
                 <p>
-                    3rd Year Computer Science Student at UCLA.
+                👩🏻‍💻 3rd Year Computer Science Student at UCLA 👩🏻‍💻
                 </p>
                 <p>
-                    Originally from New Jersey.
+                🥯 Originally from New Jersey 🥯
                 </p>
                 <p>
-                    French Fry Enthusiast
+                🍟 French Fry Enthusiast 🍟
                 </p>
                 <div className="icons">
                     <a href="https://instagram.com/nataleeyaa" className="icon i-instagram">
@@ -26,7 +30,7 @@ function HomePage(){
                     <a href="https://github.com/natalialuzuriaga" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://linkedin.com/in/natalialuzuriaga1" className="icon i-linkedin">
+                    <a href="https://linkedin.com/in/natalialuzuriaga" className="icon i-linkedin">
                         <LinkedinIcon />
                     </a>
                 </div>

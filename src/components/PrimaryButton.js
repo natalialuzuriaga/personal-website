@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components'
 
-function PrimaryButton({title}) {
+function PrimaryButton({title, link}) {
     return (
         <PrimaryButtonStyled>
+             <a href={link}>
             <h5>{title}</h5>
+            </a>
         </PrimaryButtonStyled>
     )
 
