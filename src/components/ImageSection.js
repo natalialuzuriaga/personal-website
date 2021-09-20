@@ -10,26 +10,21 @@ function ImageSection() {
                 <img src={avatar} alt=""/>
             </div>
             <div className='right-content'>
-                <h4> I am <span>Natalia Luzuriaga</span></h4>
+                <h4><span>Natalia Luzuriaga</span></h4>
                 <p className="paragraph">
-                    Hi there, I'm Natalia Luzuriaga. I'm a third year student studying Computer Science and Public Affairs at UCLA. 
-                    I enjoy front-end development, both web and mobile
+                    I'm a third year student studying Computer Science and Public Affairs at UCLA. As a previous user of hearing aids, I owe it all to assistive technologies for enhancing my quality of life. I aspire to become a software engineer to create technologies that help others just like with what hearing aids have done to myself and the hearing-impaired community.
                 </p>
                 <div className ='about-info'>
                     <div className='info-title'>
-                        <p>Full Name: </p>
-                        <p>University: </p>
+                        <p>School: </p>
                         <p>Graduation Date: </p>
-                        <p>Nationality: </p>
-                        <p>Languages: </p>
+                        <p>Background: </p>
                         <p>Location: </p>
                     </div>
                     <div className='info'>
-                        <p>Natalia Luzuriaga</p>
                         <p>University of California, Los Angeles (UCLA)</p>
                         <p>June 2023</p>
                         <p>Filipino-American</p>
-                        <p>English</p>
                         <p>Los Angeles, California</p>
                     </div>
             </div>

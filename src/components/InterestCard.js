@@ -13,6 +13,8 @@ function InterestCard({image, title, paragraph}) {
     )
 }
 
+//Click on interest card -> takes to projects relating to the subject
+
 const InterestCardStyle = styled.div`
     background-color: var(--background-dark-gray);
     border-left: 1px solid var(--border-color);

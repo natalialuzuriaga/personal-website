@@ -16,20 +16,20 @@ function InterestsSection() {
                     <InterestCard
                         image={website}
                         title={'Frontend Development'}
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={'This type of development gives me so much freedom to be creative! I enjoy being able to put any of my ideas into digital form and experimenting with a blank canvas!'}
                     />
 
                 <div className="mid-card">
                     <InterestCard
                         image={phone}
                         title={'Mobile Development'}
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={'Love how phones unlocks tons of increased functionality such as using the camera/microphone to working with location-based data. With millions having smartphones, this type of development is more accessible and reaches many potential users!'}
                     />
                 </div>
                 <InterestCard
                         image={education}
                         title={'Education'}
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={'Not only do I love crafting my own lesson plans and workshops but I love interacting with students and seeing them grow fascinated with a new subject they have never been exposed too!'}
                     />
                 </div>
             </InterestsSectionStyle>

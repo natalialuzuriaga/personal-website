@@ -7,10 +7,8 @@ import ResumePage from "./pages/ResumePage";
 import ProjectsPage from "./pages/ProjectsPage";
 import BlogPage from "./pages/BlogsPage";
 
-import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";
 import Switch from '@material-ui/core/Switch'
-import { IconButton } from "@material-ui/core";
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 
 
@@ -55,12 +53,6 @@ function App() {
       </div>
 
       <MainContentStyle>
-        <div className="lines">
-          <div className="line-1"></div>
-          <div className="line-2"></div>
-          <div className="line-3"></div>
-          <div className="line-4"></div>
-        </div>
         <Switching>
           <Route path="/" exact>
             <HomePage />

@@ -77,11 +77,27 @@ textarea{
 
     
 
-    h1{
+    h1 {
         font-size: 4rem;
         color: var(--white-color);
-        span{
+        span {
             font-size: 4rem;
+        }
+    }
+
+    h2 {
+        font-size: 3.5rem;
+        color: var(--white-color);
+        span {
+            font-size: 3.5rem;
+        }
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        color: var(--white-color);
+        span {
+            font-size: 2.5rem;
         }
     }
 
@@ -89,32 +105,32 @@ textarea{
         font-size: 3rem
     }
 
-    span{
+    span {
         color: var(--primary-color);
     }
 
-    h6{
+    h6 {
     color: var(--white-color);
     font-size: 1.2rem;
     padding-bottom: .6rem;
 }
 //Utilities
-.u-margin-bottom{
+.u-margin-bottom {
     margin-bottom: 4rem;
 }
 //Floting Toggler
-.light-dark-mode{
+.light-dark-mode {
     position: fixed;
     right: 0;
-    top: 50%;
     background-color: var(--background-light-color-2);
-    width: 6.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 5rem;
     z-index: 15;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    svg{
+    svg {
       display: flex;
       align-items: center;
       font-size: 1.7rem;
@@ -122,7 +138,7 @@ textarea{
     }
   }
   //Nav Toggler
-  .ham-burger-menu{
+  .ham-burger-menu {
       position: absolute;
       right: 5%;
       top: 3%; 
@@ -132,7 +148,7 @@ textarea{
           font-size: 3rem;
       }
     }
-    .nav-toggle{
+    .nav-toggle {
         transform: translateX(0);
         z-index: 20;
     }
