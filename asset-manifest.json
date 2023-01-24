@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.b844c384.chunk.js",
-    "main.js.map": "/static/js/main.b844c384.chunk.js.map",
+    "main.js": "/static/js/main.b85fa70f.chunk.js",
+    "main.js.map": "/static/js/main.b85fa70f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4fa1e9d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.4fa1e9d1.js.map",
-    "static/js/2.7297f09a.chunk.js": "/static/js/2.7297f09a.chunk.js",
-    "static/js/2.7297f09a.chunk.js.map": "/static/js/2.7297f09a.chunk.js.map",
+    "static/js/2.3feeff50.chunk.js": "/static/js/2.3feeff50.chunk.js",
+    "static/js/2.3feeff50.chunk.js.map": "/static/js/2.3feeff50.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.7297f09a.chunk.js.LICENSE.txt": "/static/js/2.7297f09a.chunk.js.LICENSE.txt",
+    "static/js/2.3feeff50.chunk.js.LICENSE.txt": "/static/js/2.3feeff50.chunk.js.LICENSE.txt",
     "static/media/FryFight.40c1f188.png": "/static/media/FryFight.40c1f188.png",
     "static/media/avatar.e4a966d3.jpg": "/static/media/avatar.e4a966d3.jpg",
     "static/media/education.d6866446.svg": "/static/media/education.d6866446.svg",
@@ -21,7 +21,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4fa1e9d1.js",
-    "static/js/2.7297f09a.chunk.js",
-    "static/js/main.b844c384.chunk.js"
+    "static/js/2.3feeff50.chunk.js",
+    "static/js/main.b85fa70f.chunk.js"
   ]
 }
