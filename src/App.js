@@ -12,7 +12,7 @@ import { Route, Switch as Switching } from "react-router";
 import Switch from '@material-ui/core/Switch'
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 
-
+//To deploy, run npm run deploy.
 function App() {
   const [theme, setTheme] = useState('light-theme');
   const [checked, setChecked] = useState(false);
