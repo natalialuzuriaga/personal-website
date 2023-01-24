@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c928c054.chunk.js",
+    "main.js.map": "/static/js/main.c928c054.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4fa1e9d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4fa1e9d1.js.map",
+    "static/js/2.3feeff50.chunk.js": "/static/js/2.3feeff50.chunk.js",
+    "static/js/2.3feeff50.chunk.js.map": "/static/js/2.3feeff50.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.3feeff50.chunk.js.LICENSE.txt": "/static/js/2.3feeff50.chunk.js.LICENSE.txt",
+    "static/media/FryFight.40c1f188.png": "/static/media/FryFight.40c1f188.png",
+    "static/media/avatar.e4a966d3.jpg": "/static/media/avatar.e4a966d3.jpg",
+    "static/media/education.d6866446.svg": "/static/media/education.d6866446.svg",
+    "static/media/foodthyme.71dd847d.png": "/static/media/foodthyme.71dd847d.png",
+    "static/media/holedup.1689c184.png": "/static/media/holedup.1689c184.png",
+    "static/media/iiDecide.2cb38b96.png": "/static/media/iiDecide.2cb38b96.png",
+    "static/media/narra.9a32042e.png": "/static/media/narra.9a32042e.png",
+    "static/media/natlogo.7deb77ea.png": "/static/media/natlogo.7deb77ea.png",
+    "static/media/phone.76d1b6dc.svg": "/static/media/phone.76d1b6dc.svg",
+    "static/media/website.84b8830d.svg": "/static/media/website.84b8830d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fa1e9d1.js",
+    "static/js/2.3feeff50.chunk.js",
+    "static/js/main.c928c054.chunk.js"
+  ]
+}
