@@ -15,7 +15,7 @@ function HomePage(){
                 <h1>Hey! </h1>
                 <h1>I'm <span>Natalia Luzuriaga</span></h1>
                 <p>
-                👩🏻‍💻 3rd Year Computer Science Student at UCLA 👩🏻‍💻
+                👩🏻‍💻 4th Year Computer Science Student at UCLA 👩🏻‍💻
                 </p>
                 <p>
                 🥯 Originally from New Jersey 🥯

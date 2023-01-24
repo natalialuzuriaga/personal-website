@@ -12,7 +12,7 @@ function ImageSection() {
             <div className='right-content'>
                 <h3><span>Natalia Luzuriaga</span></h3>
                 <p className="paragraph">
-                    I'm a third year student studying Computer Science and Public Affairs at UCLA. As a previous user of hearing aids, I owe it all to assistive technologies for enhancing my quality of life. I aspire to become a software engineer to create technologies that help others just like with what hearing aids have done to myself and the hearing-impaired community.
+                    I'm a fourth year student studying Computer Science at UCLA. As a previous user of hearing aids, I owe it all to assistive technologies for enhancing my quality of life. I aspire to become a software engineer to create technologies that help others just like with what hearing aids have done to myself and the hard-of-hearing community.
                 </p>
                 <div className ='about-info'>
                     <div className='info-title'>
@@ -30,7 +30,7 @@ function ImageSection() {
             </div>
             
             <div>
-                <PrimaryButton title={"Download Resume"} link={'https://tinyurl.com/natalialuzuriagaresume'}/>
+                <PrimaryButton title={"Download Resume"} link={'https://tinyurl.com/natalialuzuriagaft1'}/>
             </div>
         </div>
         </ImageSectionStyled>

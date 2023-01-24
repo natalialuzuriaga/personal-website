@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 import Card from "react-bootstrap/Card";
+
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import VideoEmbed from "../components/VideoEmbed";
 
 function WorkshopCard({ workshopItem }) {
   return (
-      <>
+      <div className='boot'>
       {workshopItem.map((item) => {
-        <Card className="text-center">
+        <Card Card style={{ width: "18rem" }} className="box">
           <Card.Body>
             <Card.Title>
               <b>{item.title}</b>
@@ -24,7 +25,7 @@ function WorkshopCard({ workshopItem }) {
           </ListGroup>
         </Card>;
       })}
-      </>
+      </div>
   );
 }
 
