@@ -12,7 +12,9 @@ import { Route, Switch as Switching } from "react-router";
 import Switch from '@material-ui/core/Switch'
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 
-//To deploy, run npm run deploy.
+// To deploy, npm run deploy and updates git-pages branch
+// Make sure it is set to deploy the git-pages branch on Github.
+// Source: https://blog.logrocket.com/deploying-react-apps-github-pages/
 function App() {
   const [theme, setTheme] = useState('light-theme');
   const [checked, setChecked] = useState(false);

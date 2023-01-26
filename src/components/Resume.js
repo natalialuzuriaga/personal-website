@@ -15,6 +15,12 @@ function Resume() {
                     </div>
                     <div className="resume-content">
                         <ResumeItem
+                                year={'06/2022 - 08/2022'}
+                                title={'Software Engineering Intern'}
+                                subTitle={'Handshake'}
+                                text={'• Built a full-stack filter to search for users by language proficiency enabling over 30 premium UK partners to discover and identify candidates that best match their needs for international job roles using React, Ruby on Rails, Redux, and Elasticsearch • Served as the Subject Matter Expert of the existing filter dropdown by linking component to fetch data from backend while proposing alternative UX and tech implementations to accommodate with existing frontend functionality and time constraints • Updated 3 webpages to display correct date and time formats based on user’s location for US and UK product using Moment.js • Wrote Rails callback hooks in target segments model to handle archiving of over 100+ existing objects'}
+                            />
+                        <ResumeItem
                             year={'06/2021 - 08/2021'}
                             title={'Software Engineering Intern'}
                             subTitle={'BlackLine - UI Platform Engineering Team'}
@@ -24,7 +30,7 @@ function Resume() {
                             year={'03/2021 - Present'}
                             title={'Junior Data Analyst'}
                             subTitle={'UCLA Transportation Department - Data Lab'}
-                            text={'• Creates 7+ Tableau dashboards analyzing parking occupancy, Salesforce CRM data, and permit sales'}
+                            text={'• Created 7+ Tableau dashboards analyzing parking occupancy, Salesforce CRM data, & permit sales used daily by 50+ employees • Performed exploratory data analysis on student micro-mobility trends from 3 years’ worth of ride data provided by Bird, Lyft, and Wheels, allowing transportation planners to understand increased electric scooter usage on campus • Implemented new layout and styling standards in Dashboard UI/UX Guide to improve usability and aesthetics'}
                         />
                         <ResumeItem
                             year={'09/2018 - 09/2019'}

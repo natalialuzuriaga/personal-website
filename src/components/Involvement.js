@@ -24,7 +24,15 @@ function Involvement() {
             }
           />
           <ResumeItem
-            year={"06/2021 - Present"}
+            year={"10/2021 - Present"}
+            title={"Sigma Eta Pi"}
+            subTitle={"Alumni Relations Director"}
+            text={
+              "• Revamping the alumni database of 250+ members from a plain spreadsheet with empty and outdated information to an Airtable database populated with detailed characteristics and attributes, significantly improving organization, searchability, and overall usability for the organizationʼs alumni relations and outreach"
+            }
+          />
+          <ResumeItem
+            year={"06/2021 - 04/2022"}
             title={"Congressional App Challenge Alumni Advisory Board"}
             subTitle={"Director of Workshops"}
             text={
